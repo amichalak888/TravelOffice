@@ -1,9 +1,9 @@
 package com.company;
 
 public class Date {
-    int year;
-    int month;
-    int day;
+   private int year;
+    private int month;
+    private int day;
 
     public Date(int year, int month, int day) {
         this.year = year;

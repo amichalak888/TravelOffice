@@ -1,9 +1,9 @@
 package com.company;
 
 public class Address {
-    String street;
-    String zip;
-    String city;
+   private String street;
+    private String zip;
+    private String city;
 
     public Address(String street, String zip, String city) {
         this.street = street;
@@ -23,7 +23,7 @@ public class Address {
         this.city = city;
     }
 
-    public String getInfo(Address address) {
+    public String toString(Address address) {
         return "Ulica: "+ address.street+
                 "kod pocztowy : " + address.zip+
                 "miasto:  " + address.city;
